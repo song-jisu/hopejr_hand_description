@@ -242,19 +242,5 @@
             scale="${scale}"/>
 
     </xacro:macro>
-    <!-- 기본 호출은 주석 처리 (hopejr_right_arm에서 직접 호출) -->
-    <!-- 가장 상위의 footprint -->
-    <!-- <link name="base_footprint"/>
-    <xacro:property name="prefix" value=""/>
-    <xacro:hopejr_hand_macro 
-        prefix="${prefix}" 
-        parent_link="base_footprint"
-    />
-
-    <joint name="${prefix}base_link_fixed" type="fixed">
-        <parent link="base_footprint"/>
-        <child link="${prefix}base_link"/>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-    </joint> -->
 
 </robot>
