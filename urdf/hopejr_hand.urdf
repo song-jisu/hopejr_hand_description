@@ -20,8 +20,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="-0.02 0 0.028"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.000213" ixy="0" ixz="0" iyy="0.007034" iyz="0" izz="0.008104"/>
+      <mass value="0.03323"/>
+      <inertia ixx="0.000018824494" ixy="-0.000000571474" ixz="-0.000000041098" iyy="0.00001505929" iyz="0.000000023636" izz="0.000013661405"/>
     </inertial>
   </link>
   <link name="hand">
@@ -39,8 +39,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+      <mass value="0.252893"/>
+      <inertia ixx="0.0002839" ixy="0.000003336317" ixz="0.000004077546" iyy="0.0001891" iyz="0.000000331897" izz="0.0001469"/>
     </inertial>
   </link>
   <joint name="wrist_pitch" type="revolute">
@@ -65,8 +65,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.008776"/>
+      <inertia ixx="0.000000783215" ixy="0.000000007992" ixz="0.000000266897" iyy="0.000000932685" iyz="-0.000000055174" izz="0.000000534905"/>
     </inertial>
   </link>
   <joint name="thumb_mcp_2" type="revolute">
@@ -106,8 +106,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.007142"/>
+      <inertia ixx="0.000000233324" ixy="-0.000000000007" ixz="0.00000000023" iyy="0.000000597862" iyz="0.000000000054" izz="0.000000638412"/>
     </inertial>
   </link>
   <joint name="thumb_pip_1" type="revolute">
@@ -147,8 +147,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.006089"/>
+      <inertia ixx="0.000000197597" ixy="-0.000000000005" ixz="0.00000000043" iyy="0.000000404632" iyz="0.000000000054" izz="0.000000440963"/>
     </inertial>
   </link>
   <joint name="thumb_pip_2" type="revolute">
@@ -188,8 +188,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005429"/>
+      <inertia ixx="0.000000155671" ixy="0.000000000024" ixz="0.000000002166" iyy="0.00000033961" iyz="0.000000000002" izz="0.000000357923"/>
     </inertial>
   </link>
   <joint name="thumb_dip" type="revolute">
@@ -214,8 +214,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+      <mass value="0.004836"/>
+      <inertia ixx="0.000000235908" ixy="-0.000000006556" ixz="0.000000001806" iyy="0.000000740439" iyz="0.000000000035" izz="0.000000830731"/>
     </inertial>
   </link>
   <joint name="index_mcp_1" type="fixed">
@@ -254,8 +254,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.001654"/>
+      <inertia ixx="0.000000049479" ixy="0.000000000263" ixz="0.000000000299" iyy="0.000000032432" iyz="0.000000000057" izz="0.000000038462"/>
     </inertial>
   </link>
   <joint name="index_mcp_2" type="revolute">
@@ -295,8 +295,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005708"/>
+      <inertia ixx="0.00000018835" ixy="0.00000001165" ixz="0.000000000165" iyy="0.000000372084" iyz="-0.000000000039" izz="0.00000039757"/>
     </inertial>
   </link>
   <joint name="index_pip" type="revolute">
@@ -336,8 +336,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005093"/>
+      <inertia ixx="0.000000143621" ixy="-0.00000000003" ixz="0.000000000091" iyy="0.000000290288" iyz="-0.000000000079" izz="0.000000314107"/>
     </inertial>
   </link>
   <joint name="index_dip_1" type="revolute">
@@ -377,8 +377,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005429"/>
+      <inertia ixx="0.000000155634" ixy="0.000000000003" ixz="-0.000000002159" iyy="0.000000339577" iyz="-0.000000000002" izz="0.000000357884"/>
     </inertial>
   </link>
   <joint name="index_dip_2" type="revolute">
@@ -404,8 +404,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+      <mass value="0.004836"/>
+      <inertia ixx="0.000000235908" ixy="-0.000000006556" ixz="0.000000001806" iyy="0.000000740439" iyz="0.000000000035" izz="0.000000830731"/>
     </inertial>
   </link>
   <joint name="middle_mcp_1" type="fixed">
@@ -444,8 +444,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.001654"/>
+      <inertia ixx="0.000000049479" ixy="0.000000000263" ixz="0.000000000299" iyy="0.000000032432" iyz="0.000000000057" izz="0.000000038462"/>
     </inertial>
   </link>
   <joint name="middle_mcp_2" type="revolute">
@@ -485,8 +485,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005708"/>
+      <inertia ixx="0.00000018835" ixy="0.00000001165" ixz="0.000000000165" iyy="0.000000372084" iyz="-0.000000000039" izz="0.00000039757"/>
     </inertial>
   </link>
   <joint name="middle_pip" type="revolute">
@@ -526,8 +526,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005093"/>
+      <inertia ixx="0.000000143621" ixy="-0.00000000003" ixz="0.000000000091" iyy="0.000000290288" iyz="-0.000000000079" izz="0.000000314107"/>
     </inertial>
   </link>
   <joint name="middle_dip_1" type="revolute">
@@ -567,8 +567,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005429"/>
+      <inertia ixx="0.000000155634" ixy="0.000000000003" ixz="-0.000000002159" iyy="0.000000339577" iyz="-0.000000000002" izz="0.000000357884"/>
     </inertial>
   </link>
   <joint name="middle_dip_2" type="revolute">
@@ -594,8 +594,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+      <mass value="0.004836"/>
+      <inertia ixx="0.000000235908" ixy="-0.000000006556" ixz="0.000000001806" iyy="0.000000740439" iyz="0.000000000035" izz="0.000000830731"/>
     </inertial>
   </link>
   <joint name="ring_mcp_1" type="fixed">
@@ -634,8 +634,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.001654"/>
+      <inertia ixx="0.000000049479" ixy="0.000000000263" ixz="0.000000000299" iyy="0.000000032432" iyz="0.000000000057" izz="0.000000038462"/>
     </inertial>
   </link>
   <joint name="ring_mcp_2" type="revolute">
@@ -675,8 +675,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005708"/>
+      <inertia ixx="0.00000018835" ixy="0.00000001165" ixz="0.000000000165" iyy="0.000000372084" iyz="-0.000000000039" izz="0.00000039757"/>
     </inertial>
   </link>
   <joint name="ring_pip" type="revolute">
@@ -716,8 +716,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005093"/>
+      <inertia ixx="0.000000143621" ixy="-0.00000000003" ixz="0.000000000091" iyy="0.000000290288" iyz="-0.000000000079" izz="0.000000314107"/>
     </inertial>
   </link>
   <joint name="ring_dip_1" type="revolute">
@@ -757,8 +757,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005429"/>
+      <inertia ixx="0.000000155634" ixy="0.000000000003" ixz="-0.000000002159" iyy="0.000000339577" iyz="-0.000000000002" izz="0.000000357884"/>
     </inertial>
   </link>
   <joint name="ring_dip_2" type="revolute">
@@ -784,8 +784,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+      <mass value="0.004836"/>
+      <inertia ixx="0.000000235908" ixy="-0.000000006556" ixz="0.000000001806" iyy="0.000000740439" iyz="0.000000000035" izz="0.000000830731"/>
     </inertial>
   </link>
   <joint name="pinky_mcp_1" type="fixed">
@@ -824,8 +824,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.001654"/>
+      <inertia ixx="0.000000049479" ixy="0.000000000263" ixz="0.000000000299" iyy="0.000000032432" iyz="0.000000000057" izz="0.000000038462"/>
     </inertial>
   </link>
   <joint name="pinky_mcp_2" type="revolute">
@@ -865,8 +865,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005708"/>
+      <inertia ixx="0.00000018835" ixy="0.00000001165" ixz="0.000000000165" iyy="0.000000372084" iyz="-0.000000000039" izz="0.00000039757"/>
     </inertial>
   </link>
   <joint name="pinky_pip" type="revolute">
@@ -906,8 +906,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005093"/>
+      <inertia ixx="0.000000143621" ixy="-0.00000000003" ixz="0.000000000091" iyy="0.000000290288" iyz="-0.000000000079" izz="0.000000314107"/>
     </inertial>
   </link>
   <joint name="pinky_dip_1" type="revolute">
@@ -947,8 +947,8 @@
     </collision>
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-      <mass value="2.0"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      <mass value="0.005429"/>
+      <inertia ixx="0.000000155634" ixy="0.000000000003" ixz="-0.000000002159" iyy="0.000000339577" iyz="-0.000000000002" izz="0.000000357884"/>
     </inertial>
   </link>
   <joint name="pinky_dip_2" type="revolute">
