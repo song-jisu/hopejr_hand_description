@@ -84,8 +84,8 @@
         <link name="${prefix}thumb_pip_1_support">
             <inertial>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
-                <mass value="2.0"/>
-                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+                <mass value="0.0000000000001"/>
+                <inertia ixx="0.00000000000001" ixy="0" ixz="0" iyy="0.00000000000001" iyz="0" izz="0.00000000000001"/>
             </inertial>
         </link>
 
@@ -128,8 +128,8 @@
         <link name="${prefix}thumb_pip_2_support">
             <inertial>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
-                <mass value="2.0"/>
-                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+                <mass value="0.0000000000001"/>
+                <inertia ixx="0.00000000000001" ixy="0" ixz="0" iyy="0.00000000000001" iyz="0" izz="0.00000000000001"/>
             </inertial>
         </link>
 
@@ -172,8 +172,8 @@
         <link name="${prefix}thumb_dip_support">
             <inertial>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
-                <mass value="2.0"/>
-                <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+                <mass value="0.0000000000001"/>
+                <inertia ixx="0.00000000000001" ixy="0" ixz="0" iyy="0.00000000000001" iyz="0" izz="0.00000000000001"/>
             </inertial>
         </link>
 
