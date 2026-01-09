@@ -25,7 +25,7 @@
             </inertial>
         </link>
 
-        <link name="${prefix}hand">
+        <link name="hand">
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <geometry>
@@ -45,15 +45,15 @@
             </inertial>
         </link>
 
-        <joint name="${prefix}wrist_pitch" type="revolute">
+        <joint name="wrist_pitch" type="revolute">
             <parent link="${prefix}base_link"/>
-            <child link="${prefix}hand"/>
+            <child link="hand"/>
             <origin xyz="${0.29887*scale} ${0.07923*scale} 0" rpy="0 ${pi/2} 0"/>
             <axis xyz="0 1 0"/>
             <limit effort="10" velocity="1.0" lower="${-pi/180*75}" upper="${pi/180*80}" />
         </joint>
 
-        <link name="${prefix}thumb_mcp_2">
+        <link name="thumb_mcp_2">
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <geometry>
@@ -73,15 +73,15 @@
             </inertial>
         </link>
 
-        <joint name="${prefix}thumb_mcp_2" type="revolute"> 
-            <parent link="${prefix}hand"/>
-            <child link="${prefix}thumb_mcp_2"/>
+        <joint name="thumb_mcp_2" type="revolute"> 
+            <parent link="hand"/>
+            <child link="thumb_mcp_2"/>
             <origin xyz="${0.19772*scale} ${0.28618*scale} ${0.058046*scale}" rpy="${pi/180*156} ${pi/180*11} ${-pi/180*67}"/>
             <axis xyz="0 0 1"/>
             <limit effort="10" velocity="1.0" lower="-3" upper="-0.043" />
         </joint>
 
-        <link name="${prefix}thumb_pip_1_support">
+        <link name="thumb_pip_1_support">
             <inertial>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <mass value="0.0000000000001"/>
@@ -89,15 +89,15 @@
             </inertial>
         </link>
 
-        <joint name="${prefix}thumb_pip_1_support" type="revolute">
-            <parent link="${prefix}thumb_mcp_2"/>
-            <child link="${prefix}thumb_pip_1_support"/>
+        <joint name="thumb_pip_1_support" type="revolute">
+            <parent link="thumb_mcp_2"/>
+            <child link="thumb_pip_1_support"/>
             <origin xyz="${0.1180315*scale} ${-0.0121475*scale} ${-0.229186*scale}" rpy="${-pi/180*157.5} ${pi/180*64.13} ${-pi/180*20.774}"/>
             <axis xyz="0 -1 0"/>
             <limit effort="10" velocity="1.0" lower="0" upper="${pi/180*67.5}" />
-            <mimic joint="${prefix}thumb_pip_1"/> </joint>
+            <mimic joint="thumb_pip_1"/> </joint>
 
-        <link name="${prefix}thumb_pip_1">
+        <link name="thumb_pip_1">
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <geometry>
@@ -117,15 +117,15 @@
             </inertial>
         </link>
 
-        <joint name="${prefix}thumb_pip_1" type="revolute">
-            <parent link="${prefix}thumb_pip_1_support"/>
-            <child link="${prefix}thumb_pip_1"/>
+        <joint name="thumb_pip_1" type="revolute">
+            <parent link="thumb_pip_1_support"/>
+            <child link="thumb_pip_1"/>
             <origin xyz="${0.152*scale} 0 0" rpy="0 0 0"/>
             <axis xyz="0 -1 0"/>
             <limit effort="10" velocity="1.0" lower="0" upper="${pi/180*67.5}" />
         </joint>
 
-        <link name="${prefix}thumb_pip_2_support">
+        <link name="thumb_pip_2_support">
             <inertial>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <mass value="0.0000000000001"/>
@@ -133,15 +133,15 @@
             </inertial>
         </link>
 
-        <joint name="${prefix}thumb_pip_2_support" type="revolute">
-            <parent link="${prefix}thumb_pip_1"/>
-            <child link="${prefix}thumb_pip_2_support"/>
+        <joint name="thumb_pip_2_support" type="revolute">
+            <parent link="thumb_pip_1"/>
+            <child link="thumb_pip_2_support"/>
             <origin xyz="${0.168*scale} 0 0" rpy="0 0 0"/>
             <axis xyz="0 -1 0"/>
             <limit effort="10" velocity="1.0" lower="0" upper="${pi/180*67.5}" />
-            <mimic joint="${prefix}thumb_pip_2"/> </joint>
+            <mimic joint="thumb_pip_2"/> </joint>
 
-        <link name="${prefix}thumb_pip_2">
+        <link name="thumb_pip_2">
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <geometry>
@@ -161,15 +161,15 @@
             </inertial>
         </link>
 
-        <joint name="${prefix}thumb_pip_2" type="revolute">
-            <parent link="${prefix}thumb_pip_2_support"/>
-            <child link="${prefix}thumb_pip_2"/>
+        <joint name="thumb_pip_2" type="revolute">
+            <parent link="thumb_pip_2_support"/>
+            <child link="thumb_pip_2"/>
             <origin xyz="${0.152*scale} 0 0" rpy="0 0 0"/>
             <axis xyz="0 -1 0"/>
             <limit effort="10" velocity="1.0" lower="0" upper="${pi/180*67.5}" />
         </joint>
 
-        <link name="${prefix}thumb_dip_support">
+        <link name="thumb_dip_support">
             <inertial>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <mass value="0.0000000000001"/>
@@ -177,15 +177,15 @@
             </inertial>
         </link>
 
-        <joint name="${prefix}thumb_dip_support" type="revolute">
-            <parent link="${prefix}thumb_pip_2"/>
-            <child link="${prefix}thumb_dip_support"/>
+        <joint name="thumb_dip_support" type="revolute">
+            <parent link="thumb_pip_2"/>
+            <child link="thumb_dip_support"/>
             <origin xyz="${0.128*scale} 0 0" rpy="0 0 0"/>
             <axis xyz="0 -1 0"/>
             <limit effort="10" velocity="1.0" lower="0" upper="${pi/180*67.5}" />
-            <mimic joint="${prefix}thumb_dip"/> </joint>
+            <mimic joint="thumb_dip"/> </joint>
 
-        <link name="${prefix}thumb_dip">
+        <link name="thumb_dip">
             <visual>
                 <origin xyz="0 0 0" rpy="0 0 0"/>
                 <geometry>
@@ -205,40 +205,40 @@
             </inertial>
         </link>
 
-        <joint name="${prefix}thumb_dip" type="revolute">
-            <parent link="${prefix}thumb_dip_support"/>
-            <child link="${prefix}thumb_dip"/>
+        <joint name="thumb_dip" type="revolute">
+            <parent link="thumb_dip_support"/>
+            <child link="thumb_dip"/>
             <origin xyz="${0.152*scale} 0 0" rpy="0 0 0"/>
             <axis xyz="0 -1 0"/>
             <limit effort="10" velocity="1.0" lower="0" upper="${pi/180*67.5}" />
         </joint>
 
         <xacro:create_finger
-            name="${prefix}index"
+            name="index"
             mcp1_xyz="${0.071613*scale} ${0.25677*scale} ${0.85375*scale}"
             mcp1_rpy="${-pi/180*88.779} ${-pi/180*84.983} ${pi/180*89.385}"
-            hand_link="${prefix}hand"
+            hand_link="hand"
             scale="${scale}"/>
 
         <xacro:create_finger
-            name="${prefix}middle"
+            name="middle"
             mcp1_xyz="${0.024581*scale} ${0.077754*scale} ${0.87322*scale}"
             mcp1_rpy="${-pi/180*79.515} ${-pi/180*89.706} ${pi/180*80.164}"
-            hand_link="${prefix}hand"
+            hand_link="hand"
             scale="${scale}"/>
 
         <xacro:create_finger
-            name="${prefix}ring"
+            name="ring"
             mcp1_xyz="${0.085778*scale} ${-0.13244*scale} ${0.8552*scale}"
             mcp1_rpy="${-pi/180*93.801} ${-pi/180*99.155} ${pi/180*101.17}"
-            hand_link="${prefix}hand"
+            hand_link="hand"
             scale="${scale}"/>
 
         <xacro:create_finger
-            name="${prefix}pinky"
+            name="pinky"
             mcp1_xyz="${0.16965*scale} ${-0.31494*scale} ${0.77426*scale}"
             mcp1_rpy="${-pi/180*88.255} ${-pi/180*110.35} ${pi/180*100.84}"
-            hand_link="${prefix}hand"
+            hand_link="hand"
             scale="${scale}"/>
 
     </xacro:macro>
